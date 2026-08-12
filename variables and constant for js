@@ -1,0 +1,8 @@
+ const accountId=144553
+ let accountEmail="husnashandigul@gmail.com"
+ let accountCity="peshawar"
+ console.log("accountId");
+ console.log("accountEmail");
+ console.log("accountCity");
+ console.log("accountId,accountEmail,accountCity");
+ 

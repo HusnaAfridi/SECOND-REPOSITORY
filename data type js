@@ -1,0 +1,9 @@
+let name="Husna"
+let age=19
+let isloggedIn=true
+console.log(typeof "Husna"); // string
+console.log(typeof 19); // number
+console.log(typeof true); // boolean
+console.log(typeof name); // string
+console.log(typeof age); // number
+console.log(typeof isloggedIn); // boolean
