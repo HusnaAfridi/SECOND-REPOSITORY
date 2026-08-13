@@ -1,0 +1,21 @@
+
+
+//array
+const arr1=[1,2,3]
+const arr2=[1,2,3]
+console.log(arr1===arr2); // false
+
+//function
+const myfunction=function(){
+    console.log("Hello World");
+}
+//null<object(datatype)
+//object<function(datatype)
+//function<function(datatype)
+
+//for finding the datatype of a variable we can use typeof operator
+
+//primitive datatypes: number, string, boolean, null, undefined, symbol,null
+//non-primitive datatypes: object, array, function
+//non primitive is also caleed reference datatypes because they are stored in heap memory and primitive datatypes are stored in stack memory
+//primitive datatypes store in stack memory
