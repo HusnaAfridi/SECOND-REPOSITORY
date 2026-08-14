@@ -1,0 +1,39 @@
+console.log ('hello'+"world")
+
+const name="husna"
+const repocount=3
+console.log(name + repocount)
+console.log(name +repocount+"value")//outdated method
+
+console.log("hello my name is husna and my repocount is 3");
+
+
+//declaration of string
+const gameName="husna"
+console.log(gameName[0])//show the alphabet at position 0 in string.
+
+console.log(gameName.__proto__);//{}
+
+console.log(gameName.length)//5 //shows the length of string i.e gameName
+
+console.log(gameName.toUpperCase());//change string into uppercase letter by using this function.
+
+console.log(gameName.toLowerCase())//change string into lowercase letter.
+
+console.log(gameName.charAt(3));//n //show char at position 3 in string (0,1,2,3,4)(h,u,s,n,a)
+
+console.log(gameName.indexOf("h"));//0//show position of char in string
+
+const anotherstring=gameName.slice(0,4)//shows char from 0 to 4 in string
+console.log(anotherstring);
+
+const stringone=" husna "
+console.log(stringone.trim());//husna//starting and ending spaces are removed.
+
+//.replace is used when some words in a string is replace by another word.
+//.include is used when we want to know that this specific word is include in string or not
+
+console.log(gameName.split("-"))
+
+
+
