@@ -1,0 +1,59 @@
+const score=400
+const balance=new Number(1000)
+console.log(balance);//[Number: 1000] //shows the value of balance
+console.log(score); // 400 //shows the value of score
+
+console.log(balance.toString());//1000 //shows the value of balance in string format.
+
+console.log(balance.toString().length);// 4 //shows the length of the string representation of balance
+
+console.log(balance.toFixed(2));//1000.00
+
+const otherNumber=23.9999
+console.log(otherNumber.toPrecision(3));//change to a precise value of 3 digit i.e 24.0
+
+const hundred=1000000
+console.log(hundred.toLocaleString(1));//1,000,000
+
+//********************************************************************************
+
+console.log(Math);//Object [Math] {}
+
+console.log(Math.abs(-4));//4//change - sign into positive
+
+console.log(Math.round(4.6));//round off to 5
+
+console.log(Math.ceil(26.12))//27//round up a number
+
+console.log(Math.floor(26.12));//26//round down a number
+
+console.log(Math.min(1,2,3,4));//shows minimum number
+
+console.log(Math.max(1,2,3,4));//shows maximum number
+
+console.log(Math.random());//any random number//gives values always between 0 and 1
+
+console.log(Math.random()*10); //gives values greater than 1
+
+console.log(Math.random()*10+1);//greater than 1
+
+const min=12
+const max=26
+console.log(Math.random()*(max-min+1))
+
+console.log(Math.floor(Math.random()+(max-min+1))+min);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
