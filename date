@@ -1,0 +1,33 @@
+let currentDate = new Date();
+console.log(currentDate);//2026-08-14T13:10:31.734Z
+
+console.log(Date.toString());//function Date() { [native code] }
+console.log(currentDate.toDateString());//Fri Aug 14 2026 //gives date and day
+console.log(currentDate.toLocaleString())//8/14/2026, 6:29:14 AM //gives date and time
+console.log(typeof currentDate);//object
+
+
+let myDate =new Date(2026,8,14);
+console.log(myDate.toDateString());//Fri Aug 14 2026
+console.log(myDate);//2026-08-14T07:00:00.000Z
+
+let mycreatedDate = new Date(2006,1,26,5,3);
+console.log(mycreatedDate.toDateString());
+
+let myTimestamp = new Date();
+console.log(myTimestamp);//2026-08-14T13:45:34.842Z //time with milliseconds.
+
+console.log(mycreatedDate.getTime());
+console.log(Math.floor(Date.now()/1000));//1786715667
+
+let newDate = new Date();
+console.log(newDate);
+console.log(newDate.getFullYear());//2026
+console.log(newDate.getMonth());//7 (August is the 8th month, so it's 7 in zero-based indexing)
+console.log(newDate.getDate());//14
+console.log(newDate.getHours());//6
+console.log(newDate.getMinutes());//58
+console.log(newDate.getSeconds());//3
+console.log(newDate.getMilliseconds());//357
+
+newDate.toDateString('default', { weekday: 'long'});
