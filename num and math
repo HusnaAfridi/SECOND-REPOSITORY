@@ -39,9 +39,9 @@ console.log(Math.random()*10+1);//greater than 1
 
 const min=12
 const max=26
-console.log(Math.random()*(max-min+1))
+console.log(Math.random()*(max-min+1))//formula
 
-console.log(Math.floor(Math.random()+(max-min+1))+min);
+console.log(Math.floor(Math.random()+(max-min+1))+min);//27 //formula
 
 
 

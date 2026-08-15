@@ -33,7 +33,9 @@ console.log(stringone.trim());//husna//starting and ending spaces are removed.
 //.replace is used when some words in a string is replace by another word.
 //.include is used when we want to know that this specific word is include in string or not
 
-console.log(gameName.split("-"))
+console.log(gameName.split("-"))//[ 'husna' ] //an array//gameName="husna"
+
+
 
 
 
