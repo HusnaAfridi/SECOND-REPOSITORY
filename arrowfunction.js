@@ -61,6 +61,11 @@ console.log(addTwo(3,4));     //7         //explicit return
  //   console.log(`DB CONNECTED TWO`);
 //})
 //+++++++++++++++++++++++++++++++++++++++++++++++++++
-((name)=>{
-    console.log(`DB CONNECTED TWO ${NAME}`);
-})('husna')
+//((name)=>{
+   // console.log(`DB CONNECTED TWO ${NAME}`);
+//})('husna')
+
+const me=()=>{
+  console.log("meri husna")
+}
+me()
