@@ -62,3 +62,71 @@ const loggedinfromemail=true;
 if(loggedinfromgoogle||loggedinfromemail){
     console.log("user logged in");  //user logged in
 }
+//================================================================================
+//switch
+const month=3
+switch(month){
+    case 1:
+        console.log("january");
+        break;
+    case 2:
+        console.log("febuary");
+        break;
+    case 3:
+        console.log("march");
+        break;
+    case 4:    
+        console.log("april");
+        break;
+    case 5:
+        console.log("default case");  
+        break;  
+}       //march
+//=========================================================
+//TRUTHY AND FALSY VALUES
+//const useremail="husna@gmail.com"  // got user email
+//const useremail=""       //dont have useremail
+const useremail=[]         //got user email
+if(useremail){
+    console.log("got user email");
+}  else{
+    console.log("dont have user email");
+}                      
+//========================================================
+//FALSY VALUES
+//false,0,-0,BigInt 0n,"",null,undefined,NaN
+//TRUTHY VALUES
+//"0","false"," ",[],{},function(){}
+//=======================================================
+const useremail1="husnagul@gmail.com"
+if(useremail1.length===0){
+    console.log("array is empty");
+}
+//=======================================================
+const emptyobject={}
+if(Object.keys(emptyobject).length===0){
+    console.log("object is empty");
+}
+//========================================================
+//comparisons
+//false==0  (true)
+//false=="" (true)
+//0==""      (true)
+//&&  all condition must be true so then execute
+//||  if only one condition is true then execute
+//========================================================================
+//NULLISH COALESCING OPERATOR(??)
+let val1;
+val1=5??10
+console.log(val1);
+val1=null??10
+console.log(val1);
+val1=undefined??10??20
+console.log(val1);
+//=========================================================================
+//TERNIARY OPERATOR
+condition?true:false
+const teaprice=100
+teaprice<=80? console.log("less than 80"):console.log("more than 80");
+//==========================================================================sss
+
