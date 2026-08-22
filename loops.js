@@ -50,4 +50,5 @@ for(let index=1;index<=20;index++){
         break;
     }
     console.log(`value of i is ${index}`);
-}            
+}            //stops when it comes to digit 5
+//===============================================================
