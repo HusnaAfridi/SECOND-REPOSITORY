@@ -128,5 +128,5 @@ console.log(val1);
 condition?true:false
 const teaprice=100
 teaprice<=80? console.log("less than 80"):console.log("more than 80");
-//==========================================================================sss
+//==========================================================================
 
